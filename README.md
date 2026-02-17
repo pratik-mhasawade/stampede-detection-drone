@@ -103,5 +103,84 @@ This design emphasizes timing closure, resource efficiency, and scalability.
 
 ---
 
-## 6. Repository Structure
+---
+
+## 7. Verification Strategy
+
+- Self-checking testbench  
+- Randomized matrix inputs  
+- Signed boundary condition testing  
+- Latency validation  
+- Waveform-based functional verification  
+
+---
+
+## 8. Implementation Results (To Be Updated After Finalization)
+
+### Post-Synthesis Metrics
+
+| Metric | Value |
+|--------|-------|
+| Fmax Achieved | XX MHz |
+| DSP Utilization | XX / 90 |
+| LUT Utilization | XX / 33K |
+| Flip-Flop Usage | XX |
+| BRAM Usage | XX |
+| Estimated Power | XX mW |
+
+---
+
+## 9. Performance Analysis
+
+- Latency: 3 cycles  
+- Throughput: 1 result per clock  
+- Speedup vs sequential implementation: XX×  
+- Critical path identified and optimized using balanced adder tree  
+
+---
+
+## 10. Timing Analysis
+
+- Worst Negative Slack (WNS): XX ns  
+- Critical Path Stage: (e.g., final adder stage)  
+- Pipeline balancing effectiveness: Verified  
+
+---
+
+## 11. Design Trade-offs
+
+- Balanced adder tree vs linear accumulation  
+- DSP inference vs LUT-based multiplication  
+- Resource usage vs performance scaling  
+- Fixed-point arithmetic vs floating-point  
+
+---
+
+## 12. Scalability & Future Work
+
+- Extend to 8×8 matrix accelerator  
+- Convert to systolic array architecture  
+- Add AXI-lite interface  
+- Integrate with RISC-V as custom accelerator  
+- Port to ASIC synthesis flow  
+
+---
+
+## 13. Skills Demonstrated
+
+- RTL datapath design  
+- Pipeline optimization  
+- Timing-aware digital architecture  
+- DSP block utilization  
+- Resource-performance trade-off analysis  
+- FPGA implementation flow  
+
+---
+
+## Author
+
+Pratik Uttam Mhasawade  
+B.Tech Electronics & Telecommunication (VLSI Honors)  
+Focus: Digital IC Design | AI Hardware | FPGA Architectures
+
 
